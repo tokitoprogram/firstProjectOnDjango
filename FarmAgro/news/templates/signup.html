@@ -1,0 +1,6 @@
+<h2 style="text-align: center">Регистрация</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" style="margin: auto; display: block"><b>Отправить</b></button>
+</form>
